@@ -6,10 +6,10 @@
     * Replace `<port between 10000-11000>` with an integer between 10000 and 11000.
 
 3. On the client windows, run `python chatClient.py <hostname or server IP> <port> <nickname> <clientID>`.
-* Replace `<hostname or server IP>` with a hostname or IP address of the server ("localhost").
-* Replace `<port>` with the same port used for the server.
-* Replace `<nickname>` with a unique name.
-* Replace `<clientID>` with an integer ID.
+    * Replace `<hostname or server IP>` with a hostname or IP address of the server ("localhost").
+    * Replace `<port>` with the same port used for the server.
+    * Replace `<nickname>` with a unique name.
+    * Replace `<clientID>` with an integer ID.
 
 ## How to End:
 
