@@ -65,7 +65,7 @@ def main():
 
             while True:
                 client_input = input() #user's message
-                if client_input == "disconnect": #if user disconnects, send disconnect message and print summary
+                if client_input == "q!": #if user disconnects, send disconnect message and print summary
                     clientSocket.sendall(json.dumps({"type": "disconnect", "nickname": name, "clientID": id}).encode())
                     end_time = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
                     print(f"Summary: start:{start_time}, end:{end_time}, msg sent:{numSntMsgs}, msg rcv:{numRcvMsgs}, char sent:{numSntChar}, char rcv:{numRcvChar}")
