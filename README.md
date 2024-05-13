@@ -6,7 +6,7 @@ Both the `chat_client.py` and `chat_server.py` programs support at least three d
 
 1. Joining the Chat:
 
-    * When a client joins the chat by running chat_client.py, it sends a join request to the server with the client's nickname, client ID, and timestamp. The server responds by adding the client to the list of active clients and acknowledging the connection.
+    * When a client joins the chat by running `chat_client.py`, it sends a join request to the server with the client's nickname, client ID, and timestamp. The server responds by adding the client to the list of active clients and acknowledging the connection.
 
 2. Sending Messages:
 
