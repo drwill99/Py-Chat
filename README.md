@@ -2,7 +2,7 @@
 
 This program uses TCP (Transmission Control Protocol) for communication. 
 
-Both the `chat_client.py` and `chat_server.py` programs support at least three different kinds of requests that the server or peer can respond to:
+Both the `chat_client.py` and `chat_server.py` programs support at least three different kinds of requests that the server can respond to:
 
 1. Joining the Chat:
 
